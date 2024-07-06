@@ -23,5 +23,4 @@ if [ $? -eq 0 ]; then
     systemctl restart nginx
 else
     echo "No new commits found. No changes to pull."
-    systemctl restart nginx
 fi
